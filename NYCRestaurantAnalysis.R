@@ -10,7 +10,7 @@ library(dplyr)
 require(dplyr)
 
 # Cleans up NYC Open Data's Chinese restaurant inspections from the last 5 years, 2013-2017
-inspections = read.csv("~/Desktop/Chinese_Restaurants.csv")
+inspections = read.csv("/data/chineserestaurantsdata.csv")
 
 # The dataset features multiple inspections for any given restaurant.
 # Calculates the average inspection score for each unique restaurant
